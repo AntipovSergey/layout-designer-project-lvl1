@@ -212,6 +212,7 @@ h3 {
   padding: 24px;
   max-width: 350px;
   background-color: var(--clair);
+  cursor: pointer;
 }
 
 .menu-navigation-item-header {
@@ -245,14 +246,14 @@ h3 {
   transition: 0.5s;
 }
 
-.menu-navigation-link:hover .menu-navigation-item-num{
+.menu-navigation-item:hover .menu-navigation-item-num{
   color: var(--main);
 }
 
-.menu-navigation-link:hover h3 {
+.menu-navigation-item:hover h3 {
   color: var(--main-dark);
 }
 
-.menu-navigation-link:hover p {
+.menu-navigation-item:hover p {
   color: var(--main);
 }

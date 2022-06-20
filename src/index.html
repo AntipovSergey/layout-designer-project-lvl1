@@ -5,10 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>layout-designer-project-lvl1:sergey_antipov</title>
-
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
+  <header>
+    <h1 class="header-title">Когнитивные искажения <span class="header-span">в программировании</span></h1>
+    <div class="header-content">
+      <div class="header-content-left">
+        <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+      </div>
+      <div class="header-content-right">
+        <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+        <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
+        <button type="button" class="btn btn-orange">Подробнее</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h2>Что же это такое,<span>когнитивные искажения?</span> </h2>
+    <section class="ikea-effect">
+      <div class="ikea-effect-header">
+        <div class="ikea-effect-header-image">
+          <img src="../src/images/1.png" alt="Изображение, показывающее 'эффект ИКЕА'">
+        </div>
+        <div class="ikea-effect-header-content">
+          <h3 class="ikea-effect-header-content-title">Когнитивные искажения <span class="ikea-effect-header-content-subtitle">Эффект ИКЕА</span></h3>
+          <p class="ikea-effect-header-content-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+        </div>
+      </div>
+      <div class="ikea-effect-content">
+        <h4>Как проявляется</h4>
+        <div class="ikea-effect-content">
+          <div class="left">
+            <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+          </div>
+          <div class="right">
+            <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <h2>Хотите узнать больше? Подпишитесь на обновления</h2>
+      <form action="#">
+        <label for="email">Электронная почта</label>
+        <input type="email" id="email" name="email" placeholder="Ваша электронная почта">
+        <p>Подписываясь, вы принимаете правила сервиса</p>
+      </form>
+    </div>
+    <p class="footer-copyright">© 2020 Константин Константинопольский</p>
+    <p class="footer-links">По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
+    <a class="footer-course" href="#">Курсы программирования Hexlet</a>
+  </footer>
 </body>
 </html>

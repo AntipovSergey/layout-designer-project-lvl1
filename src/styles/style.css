@@ -270,6 +270,12 @@ h3 {
 
 /*---------------------------------------*/
 
+/* ITEM ---------------------------------------*/
+
+.light-text-color {
+  color: var(--white);
+}
+
 .item-header {
   display: flex;
   gap: 30px;
@@ -334,4 +340,11 @@ h3 {
 .item-text p {
   margin-bottom: 0;
 }
-/* IKEA ---------------------------------------*/
+
+/*---------------------------------------*/
+
+/* OPTIMISATION ---------------------------------------*/
+
+.optimisation-header {
+  flex-direction: row-reverse;
+}

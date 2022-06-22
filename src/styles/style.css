@@ -349,10 +349,14 @@ h3 {
   flex: 1 1 50%;
 }
 
-.item-text p {
+.item-text p:last-of-type {
   margin-bottom: 0;
 }
 
 /*---------------------------------------*/
 
+/* ERRORS ---------------------------------------*/
 
+.errors-item-text-right p:last-of-type {
+  margin-bottom: 30px;
+}

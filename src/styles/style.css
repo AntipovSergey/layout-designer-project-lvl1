@@ -276,6 +276,14 @@ h3 {
   color: var(--white);
 }
 
+.light-uptitle-color {
+  color: var(--translucent-white);
+}
+
+.dark-uptitle-color {
+  color: var(--translucent-dark);
+}
+
 .item-header {
   display: flex;
   gap: 30px;

@@ -208,19 +208,24 @@
     </section>
   </main>
   <footer>
-    <div class="footer-content">
-      <h2>Хотите узнать больше? Подпишитесь на обновления</h2>
-      <form action="#">
-        <label for="email">Электронная почта</label>
-        <input type="email" id="email" name="email" placeholder="Ваша электронная почта">
-        <p>Подписываясь, вы принимаете правила сервиса</p>
-      </form>
+    <div class="container footer-container">
+      <div class="footer-content">
+        <div class="footer-content-title">
+          <h2>Хотите узнать больше?<br> Подпишитесь на обновления</h2>
+        </div>
+        <form action="#" class="input-form">
+          <label class="input-label" for="email">Электронная почта</label>
+          <div class="input-field">
+            <input type="email" class="input" id="email" name="email" placeholder="Ваша электронная почта">
+            <button class="input-button btn-orange position-relative" type="submit"></button>
+          </div>
+          <p class="input-form-text">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+        </form>
+      </div>
+      <p class="footer-copyright">© 2022 Сергей Антипов</p>
+      <p class="footer-links">По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
+      <a class="footer-course" href="#">Курсы программирования Hexlet</a>
     </div>
-    <p class="footer-copyright">© 2020 Константин Константинопольский</p>
-    <p class="footer-links">По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
-    <a class="footer-course" href="#">Курсы программирования Hexlet</a>
   </footer>
-
-
 </body>
 </html>

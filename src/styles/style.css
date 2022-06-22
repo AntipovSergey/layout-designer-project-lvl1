@@ -11,6 +11,12 @@
   --blue: #1085c5;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
 @font-face {
   font-weight: 400;
   font-family: Neucha;
@@ -158,7 +164,7 @@ h3 {
 }
 
 .header-content-right p:last-of-type {
-  margin-bottom: 39px;
+  margin-bottom: 32px;
 }
 
 /* --------------------------------------- */
@@ -166,6 +172,8 @@ h3 {
 /* Button --------------------------------------- */
 
 .btn {
+  display: inline-block;
+
   padding: 13px 23px 15px 24px;
 
   color: var(--white);
@@ -174,9 +182,7 @@ h3 {
   font-size: 16px;
 
   text-transform: uppercase;
-
-  border: none;
-  outline: none;
+  text-decoration: none;
 }
 
 .btn-orange {
@@ -213,7 +219,7 @@ h3 {
 
   vertical-align: middle;
 
-  border: 0px;
+  border: 0;
 
   transform: translateY(100px);
 

@@ -207,7 +207,13 @@ h3 {
 .video iframe {
   position: relative;
 
+  width: 919px;
+
+  height: 569px;
+
   vertical-align: middle;
+
+  border: 0px;
 
   transform: translateY(100px);
 

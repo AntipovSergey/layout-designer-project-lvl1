@@ -164,7 +164,7 @@ h3 {
 }
 
 .header-content-right p:last-of-type {
-  margin-bottom: 32px;
+  margin-bottom: 38px;
 }
 
 /* --------------------------------------- */
@@ -174,7 +174,7 @@ h3 {
 .btn {
   display: inline-block;
 
-  padding: 13px 23px 15px 24px;
+  padding: 11px 24px 13px;
 
   color: var(--white);
 
